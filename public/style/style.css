@@ -2,8 +2,9 @@ h1 {
   color: blueviolet;
 }
 
-[type="radio"]:checked, [type="radio"]:not(:checked) {
-  position: inherit;
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: unset;
   opacity: 1;
   pointer-events: none;
 }
